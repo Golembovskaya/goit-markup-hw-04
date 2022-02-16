@@ -14,8 +14,6 @@ body {
   color: var(--btn-main-color-text);
 }
 .container {
-  /* display: flex;*/
-  align-items: center;
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -39,6 +37,9 @@ li {
 }
 /*Начало Секции 1 студии*/
 .title {
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,11 +47,29 @@ li {
 
   text-align: center;
   height: 600px;
-  padding: 0 15px;
-  margin: 0 auto;
+  max-width: 1600px;
+  flex-grow: 1;
+  background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/hero\img\\(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /*padding: 0 15px;
+  margin: 0 auto;*/
 
   background: var(--backgraund-section);
 }
+/*.ovtrlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  background-image: url("../img/hero\img\\(1\).jpg");
+}*/
 .title-first {
   margin-bottom: 30px;
   font-weight: 900;
@@ -69,9 +88,6 @@ li {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   border-style: none;
   border-radius: 4px;
