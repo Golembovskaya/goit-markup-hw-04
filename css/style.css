@@ -54,22 +54,13 @@ li {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/);
+    url(../img/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   /*padding: 0 15px;
-  margin: 0 auto;*/
-
-  background: var(--backgraund-section);
+  margin: 0 auto;
+  background: var(--backgraund-section);*/
 }
-/*.ovtrlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 1px solid black;
-  background-image: url("../img/hero\img\\(1\).jpg");
-}*/
 .title-first {
   margin-bottom: 30px;
   font-weight: 900;
