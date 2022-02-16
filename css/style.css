@@ -186,6 +186,23 @@ li {
   padding: 30px 0;
 }
 /*Конец Секции 4 студии*/
+/*Начало Секции 5 студии*/
+.title-regular-customers {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.customers {
+  display: flex;
+  list-style: none;
+}
+/*Конец Секции 5 студии*/
 /*Начало секции в портфолио*/
 .list-item-pictu {
   font-style: normal;
