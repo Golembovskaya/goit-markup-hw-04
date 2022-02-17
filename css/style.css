@@ -115,6 +115,12 @@ li {
 .list-title + .list-title {
   margin-left: 30px;
 }
+.list-title::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+}
 /*Конец Секции 2 студии*/
 /*Начало Секции 3 студии*/
 .h2-list-title {
