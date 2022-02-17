@@ -57,7 +57,7 @@ li {
     url(../img/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  /*background: var(--backgraund-section);*/
+  background-color: var(--backgraund-section);
 }
 .title-first {
   margin-bottom: 30px;
