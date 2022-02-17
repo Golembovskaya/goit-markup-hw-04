@@ -57,9 +57,7 @@ li {
     url(../img/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  /*padding: 0 15px;
-  margin: 0 auto;
-  background: var(--backgraund-section);*/
+  /*background: var(--backgraund-section);*/
 }
 .title-first {
   margin-bottom: 30px;
@@ -188,7 +186,8 @@ li {
 /*Конец Секции 4 студии*/
 /*Начало Секции 5 студии*/
 .title-regular-customers {
-  font-family: Roboto;
+  margin-bottom: 50px;
+  font-family: var(--main-font-family);
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -201,6 +200,9 @@ li {
 .customers {
   display: flex;
   list-style: none;
+}
+.imegs-regular-customers + .imegs-regular-customers {
+  margin-left: 30px;
 }
 /*Конец Секции 5 студии*/
 /*Начало секции в портфолио*/
