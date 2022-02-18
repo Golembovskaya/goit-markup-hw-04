@@ -57,7 +57,7 @@ li {
     url(../img/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-color: var(--backgraund-section);
+  background-color: #c4c4c4;
 }
 .title-first {
   margin-bottom: 30px;
@@ -115,7 +115,21 @@ li {
 .list-title + .list-title {
   margin-left: 30px;
 }
-.list-title::before {
+.antenna-title {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.list-title .antenna {
+  width: 270px;
+}
+/*.list-title::before {
   margin-bottom: 30px;
   content: "";
   display: block;
@@ -139,7 +153,7 @@ li {
 }
 .astronaut::before {
   background-image: url(../img/astronaut.svg);
-}
+}*/
 /*Конец Секции 2 студии*/
 /*Начало Секции 3 студии*/
 .h2-list-title {
