@@ -118,15 +118,14 @@ li {
 .antenna-title {
   align-items: center;
   justify-content: center;
-  display: block;
-  width: 270px;
+  display: flex;
+  width: 100%;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
-  background-position: center;
   margin-bottom: 30px;
 }
-.list-title .antenna {
+.antenna {
   width: 270px;
 }
 /*.list-title::before {
@@ -446,6 +445,10 @@ li {
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid #ececec;
+}
+.item-contact .contact {
+  display: flex;
+  align-items: center;
 }
 /*Шапка студия и портфолио конец*/
 
