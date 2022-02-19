@@ -115,10 +115,10 @@ li {
 .list-title + .list-title {
   margin-left: 30px;
 }
-.antenna-title {
+.deck-title {
   align-items: center;
   justify-content: center;
-  /*display: flex;*/
+  display: flex;
   width: 100%;
   height: 120px;
   background-color: #f5f4fa;
@@ -243,24 +243,34 @@ li {
   margin-left: 30px;
 }
 .imegs-regular-customers {
-  width: 170px;
-  height: 92px;
 }
 .client-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  /*background-size: contain;*/
+}
+.client-link {
+  width: 170px;
+  height: 92px;
+  /*width: 106px;
+  height: 60px;*/
+  fill: currentColor;
 }
 .client-icon {
   width: 106px;
   height: 60px;
-  fill: currentColor;
+}
+.client-icon:hover/*,
+.client-icon:focus*/ {
+  color: #2196f3;
+  border-color: #2196f3;
+}
+.client-link:hover/*,
+.client-link:focus*/ {
+  color: #2196f3;
 }
 /*Конец Секции 5 студии*/
 /*Начало секции в портфолио*/
@@ -360,6 +370,8 @@ li {
   align-items: center;
 }
 .header-container {
+  padding: 0 15px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
 }
