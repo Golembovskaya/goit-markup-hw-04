@@ -83,10 +83,13 @@ li {
   padding: 10px 32px;
   color: var(--btn-tittle);
   background: var(--btn-background);
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
-  color: var(--btn-tittle);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  /*color: var(--btn-tittle);*/
   background: var(--btn-background);
 }
 /*Конец Секции 1 студии*/
@@ -249,9 +252,9 @@ li {
 .social-links-list-item .social-icon:hover,
 .social-links-list-item .social-icon:focus {
   color: #fff;
-  fill: currentColor;
 }
 .social-icon {
+  position: absolute;
   color: #afb1b8;
 }
 /*Конец Секции 4 студии*/
@@ -392,11 +395,9 @@ li {
 .images-list + .images-list {
   margin-left: 15px;
 }
-.
 /*Конец секции портфолио*/
-/*Шапка студия и портфолио начало*/
-.header .nav,
-.main-footer {
+/*Шапка студия*/
+.header.nav {
   font-family: var(--secondary-fond-family);
   font-style: normal;
   font-weight: 700;
@@ -404,10 +405,16 @@ li {
   letter-spacing: 0.03em;
 }
 .nav {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   display: flex;
   align-items: center;
 }
 .header-container {
+  display: flex;
+  justify-content: space-between;
   padding: 0 15px;
   margin: 0 auto;
   display: flex;
@@ -491,6 +498,7 @@ li {
 .contact:hover,
 .contact:focus {
   color: var(--navigation-color);
+  fill: #2196f3;
 }
 .header .current {
   color: var(--navigation-color);
@@ -506,10 +514,25 @@ li {
   display: flex;
   align-items: center;
 }
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.tel-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 /*Шапка студия и портфолио конец*/
 
 /*Начало футера*/
 .main-footer {
+  font-family: var(--secondary-fond-family);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   margin: 0 auto;
   padding: 60px 0;
   background-color: var(--backgraund-section);
