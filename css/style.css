@@ -243,18 +243,16 @@ li {
   background-color: rgba(255, 255, 255, 0.1);
   background-position: center;
   position: relative;
-  fill: currentColor;
 }
 .social-links-list-item:hover,
 .social-links-list-item:focus {
   background-color: #2196f3;
 }
-.social-links-list-item .social-icon:hover,
-.social-links-list-item .social-icon:focus {
-  color: #fff;
+.social-links-list-item:hover .social-icon,
+.social-links-list-item:focus .social-icon {
+  fill: #fff;
 }
 .social-icon {
-  position: absolute;
   color: #afb1b8;
 }
 /*Конец Секции 4 студии*/
@@ -305,6 +303,10 @@ li {
 .client-link:hover,
 .client-link:focus {
   color: #2196f3;
+}
+.social-link:hover,
+.social-icon {
+  fill: currentColor;
 }
 /*Конец Секции 5 студии*/
 /*Начало секции в портфолио*/
