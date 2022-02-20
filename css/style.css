@@ -240,10 +240,19 @@ li {
   background-color: rgba(255, 255, 255, 0.1);
   background-position: center;
   position: relative;
+  fill: currentColor;
 }
 .social-links-list-item:hover,
 .social-links-list-item:focus {
   background-color: #2196f3;
+}
+.social-links-list-item .social-icon:hover,
+.social-links-list-item .social-icon:focus {
+  color: #fff;
+  fill: currentColor;
+}
+.social-icon {
+  color: #afb1b8;
 }
 /*Конец Секции 4 студии*/
 /*Начало Секции 5 студии*/
@@ -287,7 +296,7 @@ li {
 }
 .client-icon:hover,
 .client-icon:focus {
-  color: #2196f3;
+  fill: currentColor;
   border-color: #2196f3;
 }
 .client-link:hover,
@@ -368,6 +377,12 @@ li {
 .images-list {
   margin: 15px;
 }
+.images-list:hover,
+.images-list:focus {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .list-item-pictu-text {
   padding: 20px 24px;
   border-bottom: 1px solid #ececec;
@@ -377,6 +392,7 @@ li {
 .images-list + .images-list {
   margin-left: 15px;
 }
+.
 /*Конец секции портфолио*/
 /*Шапка студия и портфолио начало*/
 .header .nav,
@@ -529,5 +545,66 @@ li {
 }
 .footer-contact + .footer-contact {
   margin-top: 9px;
+}
+/*соцсети*/
+.footer-social-container {
+  width: 206px;
+  height: 80px;
+}
+
+.footer-social-title {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+}
+.footer-container {
+  display: flex;
+}
+.footer-social-list {
+  display: flex;
+}
+.footer-social-list-item {
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+}
+.footer-social-list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-position: center;
+  position: relative;
+  fill: currentColor;
+}
+.footer-social-list-item-link:hover,
+.footer-social-list-item-link:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+.footer-social-list-item:not(:last child) {
+  margin-right: 10px;
+}
+.footer-social-icon {
+  fill: #fff;
+}
+.client-link:hover,
+.client-link:focus {
+  border: 1px solid #2196f3;
+}
+.main-footer-container {
+  width: 230px;
+  align-items: baseline;
+  margin-right: 70px;
 }
 /*Конец футера*/
